@@ -7,10 +7,8 @@ while response != 0:
     while a != b:
         if a > b:
             a = a - b
+            print(a)
         else:
             b = b - a
     print("a = ", a)
-    #
-    #
-    #
     response = int(input("Enter an integer (\"0 to stop\"): "))
